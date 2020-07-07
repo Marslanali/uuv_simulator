@@ -1,8 +1,0 @@
-prefix=/home/arslan/uuv_simulator/install
-
-Name: uuv_gazebo
-Description: Description of uuv_gazebo
-Version: 0.6.13
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
