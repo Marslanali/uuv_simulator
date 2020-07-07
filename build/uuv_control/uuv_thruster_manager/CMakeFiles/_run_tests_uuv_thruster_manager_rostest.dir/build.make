@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Utility rule file for _run_tests_uuv_thruster_manager_rostest.
 
@@ -63,10 +63,10 @@ uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rost
 .PHONY : uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest.dir/build
 
 uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_thruster_manager && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_uuv_thruster_manager_rostest.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_thruster_manager && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_uuv_thruster_manager_rostest.dir/cmake_clean.cmake
 .PHONY : uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest.dir/clean
 
 uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_control/uuv_thruster_manager /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_control/uuv_thruster_manager /home/arslanali/uuv_simulator/build/uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_control/uuv_thruster_manager /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_control/uuv_thruster_manager /home/arslan/uuv_simulator/build/uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest.dir/depend
 

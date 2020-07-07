@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/arslanali/uuv_simulator/uuv_control/uuv_thruster_manager/srv/GetThrusterCurve.srv;/home/arslanali/uuv_simulator/uuv_control/uuv_thruster_manager/srv/ThrusterManagerInfo.srv;/home/arslanali/uuv_simulator/uuv_control/uuv_thruster_manager/srv/SetThrusterManagerConfig.srv;/home/arslanali/uuv_simulator/uuv_control/uuv_thruster_manager/srv/GetThrusterManagerConfig.srv"
+services_str = "/home/arslan/uuv_simulator/uuv_control/uuv_thruster_manager/srv/GetThrusterCurve.srv;/home/arslan/uuv_simulator/uuv_control/uuv_thruster_manager/srv/ThrusterManagerInfo.srv;/home/arslan/uuv_simulator/uuv_control/uuv_thruster_manager/srv/SetThrusterManagerConfig.srv;/home/arslan/uuv_simulator/uuv_control/uuv_thruster_manager/srv/GetThrusterManagerConfig.srv"
 pkg_name = "uuv_thruster_manager"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

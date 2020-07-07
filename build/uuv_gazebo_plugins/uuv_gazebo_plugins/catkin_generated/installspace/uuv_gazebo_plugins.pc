@@ -1,4 +1,4 @@
-prefix=/home/arslanali/uuv_simulator/install
+prefix=/home/arslan/uuv_simulator/install
 
 Name: uuv_gazebo_plugins
 Description: Description of uuv_gazebo_plugins

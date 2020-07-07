@@ -1,8 +1,8 @@
-# Install script for directory: /home/arslanali/uuv_simulator/uuv_tutorials/uuv_tutorials
+# Install script for directory: /home/arslan/uuv_simulator/uuv_tutorials/uuv_tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arslanali/uuv_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arslan/uuv_simulator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_tutorials" TYPE FILE FILES "/home/arslanali/uuv_simulator/uuv_tutorials/uuv_tutorials/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_tutorials" TYPE FILE FILES "/home/arslan/uuv_simulator/uuv_tutorials/uuv_tutorials/package.xml")
 endif()
 

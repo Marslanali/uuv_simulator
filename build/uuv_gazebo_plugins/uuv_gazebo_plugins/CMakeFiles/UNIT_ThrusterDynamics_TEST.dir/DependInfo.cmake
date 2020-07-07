@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/ThrusterDynamics_TEST.cc" "/home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterDynamics_TEST.dir/src/ThrusterDynamics_TEST.cc.o"
+  "/home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/ThrusterDynamics_TEST.cc" "/home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterDynamics_TEST.dir/src/ThrusterDynamics_TEST.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,12 +24,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/OGRE/Terrain"
   "/usr/include/OGRE/Paging"
   "/usr/include/gazebo-7/gazebo/msgs"
+  "/usr/include/eigen3"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/arslanali/uuv_simulator/build/gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_dynamics.dir/DependInfo.cmake"
+  "/home/arslan/uuv_simulator/build/gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_dynamics.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

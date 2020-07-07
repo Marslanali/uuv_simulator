@@ -1,8 +1,8 @@
-# Install script for directory: /home/arslanali/uuv_simulator/uuv_tutorials/uuv_tutorial_dp_controller
+# Install script for directory: /home/arslan/uuv_simulator/uuv_tutorials/uuv_tutorial_dp_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arslanali/uuv_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arslan/uuv_simulator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,25 +33,25 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslanali/uuv_simulator/build/uuv_tutorials/uuv_tutorial_dp_controller/catkin_generated/installspace/uuv_tutorial_dp_controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslan/uuv_simulator/build/uuv_tutorials/uuv_tutorial_dp_controller/catkin_generated/installspace/uuv_tutorial_dp_controller.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_tutorial_dp_controller/cmake" TYPE FILE FILES
-    "/home/arslanali/uuv_simulator/build/uuv_tutorials/uuv_tutorial_dp_controller/catkin_generated/installspace/uuv_tutorial_dp_controllerConfig.cmake"
-    "/home/arslanali/uuv_simulator/build/uuv_tutorials/uuv_tutorial_dp_controller/catkin_generated/installspace/uuv_tutorial_dp_controllerConfig-version.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_tutorials/uuv_tutorial_dp_controller/catkin_generated/installspace/uuv_tutorial_dp_controllerConfig.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_tutorials/uuv_tutorial_dp_controller/catkin_generated/installspace/uuv_tutorial_dp_controllerConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_tutorial_dp_controller" TYPE FILE FILES "/home/arslanali/uuv_simulator/uuv_tutorials/uuv_tutorial_dp_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_tutorial_dp_controller" TYPE FILE FILES "/home/arslan/uuv_simulator/uuv_tutorials/uuv_tutorial_dp_controller/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_tutorial_dp_controller" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_tutorials/uuv_tutorial_dp_controller/catkin_generated/installspace/tutorial_dp_controller.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_tutorial_dp_controller" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_tutorials/uuv_tutorial_dp_controller/catkin_generated/installspace/tutorial_dp_controller.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_tutorial_dp_controller" TYPE DIRECTORY FILES "/home/arslanali/uuv_simulator/uuv_tutorials/uuv_tutorial_dp_controller/launch" REGEX "/[^/]*\\~$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_tutorial_dp_controller" TYPE DIRECTORY FILES "/home/arslan/uuv_simulator/uuv_tutorials/uuv_tutorial_dp_controller/launch" REGEX "/[^/]*\\~$" EXCLUDE)
 endif()
 

@@ -12,12 +12,12 @@
   <arg name="axis_x" default="4"/>
   <arg name="axis_y" default="3"/>
   <arg name="axis_z" default="1"/>
-  <arg name="gain_roll" default="3"/>
-  <arg name="gain_pitch" default="3"/>
-  <arg name="gain_yaw" default="6"/>
-  <arg name="gain_x" default="5"/>
-  <arg name="gain_y" default="2"/>
-  <arg name="gain_z" default="6"/>
+  <arg name="gain_roll" default="6"/>
+  <arg name="gain_pitch" default="6"/>
+  <arg name="gain_yaw" default="10"/>
+  <arg name="gain_x" default="10"/>
+  <arg name="gain_y" default="10"/>
+  <arg name="gain_z" default="10"/>
   <arg name="output_topic" default="cmd_vel"/>
   <!-- The type of message can also be geometry_msgs/Accel -->
   <arg name="message_type" default="twist"/>

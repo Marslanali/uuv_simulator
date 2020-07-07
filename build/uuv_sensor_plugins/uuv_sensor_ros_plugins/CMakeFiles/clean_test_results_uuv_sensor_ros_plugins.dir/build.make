@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Utility rule file for clean_test_results_uuv_sensor_ros_plugins.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
 include uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/progress.make
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins:
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/arslanali/uuv_simulator/build/test_results/uuv_sensor_ros_plugins
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/arslan/uuv_simulator/build/test_results/uuv_sensor_ros_plugins
 
 clean_test_results_uuv_sensor_ros_plugins: uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins
 clean_test_results_uuv_sensor_ros_plugins: uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/build.make
@@ -67,10 +67,10 @@ uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sens
 .PHONY : uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/build
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/cmake_clean.cmake
 .PHONY : uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/clean
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/clean_test_results_uuv_sensor_ros_plugins.dir/depend
 

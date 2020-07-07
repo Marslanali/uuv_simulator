@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Utility rule file for uuv_auv_control_allocator_geneus.
 
@@ -63,10 +63,10 @@ uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_allocator_geneu
 .PHONY : uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_allocator_geneus.dir/build
 
 uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_allocator_geneus.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator && $(CMAKE_COMMAND) -P CMakeFiles/uuv_auv_control_allocator_geneus.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator && $(CMAKE_COMMAND) -P CMakeFiles/uuv_auv_control_allocator_geneus.dir/cmake_clean.cmake
 .PHONY : uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_allocator_geneus.dir/clean
 
 uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_allocator_geneus.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_control/uuv_auv_control_allocator /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator /home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_allocator_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_control/uuv_auv_control_allocator /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator /home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_allocator_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_allocator_geneus.dir/depend
 

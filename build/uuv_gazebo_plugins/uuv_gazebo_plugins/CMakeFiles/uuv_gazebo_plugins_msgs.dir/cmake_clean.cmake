@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "Double.pb.cc"
-  "Double.pb.h"
   "Accel.pb.cc"
   "Accel.pb.h"
-  "CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o"
+  "Double.pb.cc"
+  "Double.pb.h"
   "CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o"
+  "CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o"
   "../../../devel/lib/libuuv_gazebo_plugins_msgs.pdb"
   "../../../devel/lib/libuuv_gazebo_plugins_msgs.so"
 )

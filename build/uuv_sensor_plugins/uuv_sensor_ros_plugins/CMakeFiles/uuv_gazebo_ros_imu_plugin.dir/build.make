@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Include any dependencies generated for this target.
 include uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/depend.make
@@ -59,16 +59,16 @@ include uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.o: uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/flags.make
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.o: ../uuv_sensor_plugins/uuv_sensor_ros_plugins/src/IMUROSPlugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.o"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.o -c /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/IMUROSPlugin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.o"
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.o -c /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/IMUROSPlugin.cc
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.i"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/IMUROSPlugin.cc > CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.i
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/IMUROSPlugin.cc > CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.i
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.s"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/IMUROSPlugin.cc -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.s
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/IMUROSPlugin.cc -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.s
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cc.o.requires:
 
@@ -83,16 +83,16 @@ uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.d
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.o: uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/flags.make
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.o: ../uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBasePlugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.o"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.o -c /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBasePlugin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.o"
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.o -c /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBasePlugin.cc
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.i"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBasePlugin.cc > CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.i
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBasePlugin.cc > CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.i
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.s"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBasePlugin.cc -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.s
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBasePlugin.cc -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.s
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cc.o.requires:
 
@@ -107,16 +107,16 @@ uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.d
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.o: uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/flags.make
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.o: ../uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.o"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.o -c /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.o"
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.o -c /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.i"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc > CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.i
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc > CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.i
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.s"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.s
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc -o CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.s
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cc.o.requires:
 
@@ -307,8 +307,8 @@ uuv_gazebo_ros_imu_plugin_EXTERNAL_OBJECTS =
 ../devel/lib/libuuv_gazebo_ros_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 ../devel/lib/libuuv_gazebo_ros_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libuuv_gazebo_ros_imu_plugin.so: uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../../devel/lib/libuuv_gazebo_ros_imu_plugin.so"
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../../devel/lib/libuuv_gazebo_ros_imu_plugin.so"
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/build: ../devel/lib/libuuv_gazebo_ros_imu_plugin.so
@@ -322,10 +322,10 @@ uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.d
 .PHONY : uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/requires
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && $(CMAKE_COMMAND) -P CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins && $(CMAKE_COMMAND) -P CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/cmake_clean.cmake
 .PHONY : uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/clean
 
 uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins /home/arslanali/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins /home/arslan/uuv_simulator/build/uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_sensor_plugins/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/depend
 

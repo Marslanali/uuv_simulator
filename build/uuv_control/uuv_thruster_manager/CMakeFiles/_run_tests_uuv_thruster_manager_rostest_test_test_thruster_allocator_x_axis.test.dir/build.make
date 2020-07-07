@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Utility rule file for _run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
 include uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/progress.make
 
 uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test:
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_thruster_manager && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/arslanali/uuv_simulator/build/test_results/uuv_thruster_manager/rostest-test_test_thruster_allocator_x_axis.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/arslanali/uuv_simulator/uuv_control/uuv_thruster_manager --package=uuv_thruster_manager --results-filename test_test_thruster_allocator_x_axis.xml --results-base-dir \"/home/arslanali/uuv_simulator/build/test_results\" /home/arslanali/uuv_simulator/uuv_control/uuv_thruster_manager/test/test_thruster_allocator_x_axis.test "
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_thruster_manager && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/arslan/uuv_simulator/build/test_results/uuv_thruster_manager/rostest-test_test_thruster_allocator_x_axis.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/arslan/uuv_simulator/uuv_control/uuv_thruster_manager --package=uuv_thruster_manager --results-filename test_test_thruster_allocator_x_axis.xml --results-base-dir \"/home/arslan/uuv_simulator/build/test_results\" /home/arslan/uuv_simulator/uuv_control/uuv_thruster_manager/test/test_thruster_allocator_x_axis.test "
 
 _run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test: uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test
 _run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test: uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/build.make
@@ -67,10 +67,10 @@ uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rost
 .PHONY : uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/build
 
 uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_thruster_manager && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_thruster_manager && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/cmake_clean.cmake
 .PHONY : uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/clean
 
 uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_control/uuv_thruster_manager /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_control/uuv_thruster_manager /home/arslanali/uuv_simulator/build/uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_control/uuv_thruster_manager /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_control/uuv_thruster_manager /home/arslan/uuv_simulator/build/uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_control/uuv_thruster_manager/CMakeFiles/_run_tests_uuv_thruster_manager_rostest_test_test_thruster_allocator_x_axis.test.dir/depend
 

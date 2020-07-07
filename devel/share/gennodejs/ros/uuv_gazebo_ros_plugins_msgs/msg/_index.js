@@ -1,12 +1,12 @@
 
 "use strict";
 
-let FloatStamped = require('./FloatStamped.js');
 let ThrusterConversionFcn = require('./ThrusterConversionFcn.js');
+let FloatStamped = require('./FloatStamped.js');
 let UnderwaterObjectModel = require('./UnderwaterObjectModel.js');
 
 module.exports = {
-  FloatStamped: FloatStamped,
   ThrusterConversionFcn: ThrusterConversionFcn,
+  FloatStamped: FloatStamped,
   UnderwaterObjectModel: UnderwaterObjectModel,
 };

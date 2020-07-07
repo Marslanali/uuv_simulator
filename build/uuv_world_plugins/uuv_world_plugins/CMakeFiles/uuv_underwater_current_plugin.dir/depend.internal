@@ -3,7 +3,7 @@
 
 uuv_world_plugins/uuv_world_plugins/CMakeFiles/uuv_underwater_current_plugin.dir/src/GaussMarkovProcess.cc.o
  ../uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh
- /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/GaussMarkovProcess.cc
+ /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/GaussMarkovProcess.cc
  /usr/include/gazebo-7/gazebo/Master.hh
  /usr/include/gazebo-7/gazebo/Server.hh
  /usr/include/gazebo-7/gazebo/common/Animation.hh
@@ -255,7 +255,7 @@ uuv_world_plugins/uuv_world_plugins/CMakeFiles/uuv_underwater_current_plugin.dir
 uuv_world_plugins/uuv_world_plugins/CMakeFiles/uuv_underwater_current_plugin.dir/src/UnderwaterCurrentPlugin.cc.o
  ../uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh
  ../uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/UnderwaterCurrentPlugin.hh
- /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/UnderwaterCurrentPlugin.cc
+ /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/UnderwaterCurrentPlugin.cc
  /usr/include/gazebo-7/gazebo/Master.hh
  /usr/include/gazebo-7/gazebo/Server.hh
  /usr/include/gazebo-7/gazebo/common/Animation.hh

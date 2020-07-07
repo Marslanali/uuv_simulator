@@ -1,4 +1,4 @@
-prefix=/home/arslanali/uuv_simulator/devel
+prefix=/home/arslan/uuv_simulator/devel
 
 Name: uuv_assistants
 Description: Description of uuv_assistants

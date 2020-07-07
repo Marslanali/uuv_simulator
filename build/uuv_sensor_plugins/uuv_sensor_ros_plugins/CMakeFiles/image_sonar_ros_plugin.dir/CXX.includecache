@@ -50,7 +50,7 @@ gazebo_plugins/gazebo_ros_camera_utils.h
 opencv2/core.hpp
 -
 
-/home/arslanali/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/gazebo_ros_image_sonar.cpp
+/home/arslan/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/gazebo_ros_image_sonar.cpp
 algorithm
 -
 assert.h

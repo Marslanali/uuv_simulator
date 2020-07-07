@@ -14,20 +14,20 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/arslanali/uuv_simulator/uuv_control/uuv_trajectory_control"
+echo_and_run cd "/home/arslan/uuv_simulator/uuv_control/uuv_trajectory_control"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/arslanali/uuv_simulator/install/lib/python2.7/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/arslan/uuv_simulator/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/arslanali/uuv_simulator/install/lib/python2.7/dist-packages:/home/arslanali/uuv_simulator/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/arslanali/uuv_simulator/build" \
+    PYTHONPATH="/home/arslan/uuv_simulator/install/lib/python2.7/dist-packages:/home/arslan/uuv_simulator/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/arslan/uuv_simulator/build" \
     "/usr/bin/python2" \
-    "/home/arslanali/uuv_simulator/uuv_control/uuv_trajectory_control/setup.py" \
-    build --build-base "/home/arslanali/uuv_simulator/build/uuv_control/uuv_trajectory_control" \
+    "/home/arslan/uuv_simulator/uuv_control/uuv_trajectory_control/setup.py" \
+    build --build-base "/home/arslan/uuv_simulator/build/uuv_control/uuv_trajectory_control" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/arslanali/uuv_simulator/install" --install-scripts="/home/arslanali/uuv_simulator/install/bin"
+    --install-layout=deb --prefix="/home/arslan/uuv_simulator/install" --install-scripts="/home/arslan/uuv_simulator/install/bin"

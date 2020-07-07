@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Include any dependencies generated for this target.
 include uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/depend.make
@@ -57,58 +57,34 @@ include uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs
 # Include the compile flags for this target's objects.
 include uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/flags.make
 
-uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc: ../uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Double.proto
-uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Double.proto"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/protoc --cpp_out /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins -I /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Double.proto
-
-uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.h: uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc
-	@$(CMAKE_COMMAND) -E touch_nocreate uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.h
-
 uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc: ../uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Accel.proto
 uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running C++ protocol buffer compiler on /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Accel.proto"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/protoc --cpp_out /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins -I /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Accel.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Accel.proto"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/protoc --cpp_out /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins -I /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Accel.proto
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.h: uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.h
 
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/flags.make
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o: uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o -c /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc
+uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc: ../uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Double.proto
+uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc: /usr/bin/protoc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running C++ protocol buffer compiler on /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Double.proto"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/protoc --cpp_out /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins -I /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/msgs/Double.proto
 
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.i"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc > CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.i
-
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.s"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc -o CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.s
-
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.requires:
-
-.PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.requires
-
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.provides: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.requires
-	$(MAKE) -f uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/build.make uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.provides.build
-.PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.provides
-
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.provides.build: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o
-
+uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.h: uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc
+	@$(CMAKE_COMMAND) -E touch_nocreate uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.h
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/flags.make
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o: uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o -c /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o -c /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.i"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc > CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.i
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc > CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.i
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.s"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc -o CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.s
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc -o CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.s
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o.requires:
 
@@ -121,40 +97,64 @@ uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Acc
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o.provides.build: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o
 
 
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/flags.make
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o: uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o -c /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc
+
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.i"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc > CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.i
+
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.s"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc -o CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.s
+
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.requires:
+
+.PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.requires
+
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.provides: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.requires
+	$(MAKE) -f uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/build.make uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.provides.build
+.PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.provides
+
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.provides.build: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o
+
+
 # Object files for target uuv_gazebo_plugins_msgs
 uuv_gazebo_plugins_msgs_OBJECTS = \
-"CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o" \
-"CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o"
+"CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o" \
+"CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o"
 
 # External object files for target uuv_gazebo_plugins_msgs
 uuv_gazebo_plugins_msgs_EXTERNAL_OBJECTS =
 
-../devel/lib/libuuv_gazebo_plugins_msgs.so: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o
 ../devel/lib/libuuv_gazebo_plugins_msgs.so: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o
+../devel/lib/libuuv_gazebo_plugins_msgs.so: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o
 ../devel/lib/libuuv_gazebo_plugins_msgs.so: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/build.make
 ../devel/lib/libuuv_gazebo_plugins_msgs.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libuuv_gazebo_plugins_msgs.so: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../../devel/lib/libuuv_gazebo_plugins_msgs.so"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uuv_gazebo_plugins_msgs.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../../devel/lib/libuuv_gazebo_plugins_msgs.so"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uuv_gazebo_plugins_msgs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/build: ../devel/lib/libuuv_gazebo_plugins_msgs.so
 
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/build
 
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/requires: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.requires
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/requires: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o.requires
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/requires: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.requires
 
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/requires
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/uuv_gazebo_plugins_msgs.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/uuv_gazebo_plugins_msgs.dir/cmake_clean.cmake
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/clean
 
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/depend: uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc
-uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/depend: uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.h
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/depend: uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.cc
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/depend: uuv_gazebo_plugins/uuv_gazebo_plugins/Accel.pb.h
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/DependInfo.cmake --color=$(COLOR)
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/depend: uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.cc
+uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/depend: uuv_gazebo_plugins/uuv_gazebo_plugins/Double.pb.h
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/depend
 

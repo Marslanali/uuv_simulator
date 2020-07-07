@@ -43,43 +43,57 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Utility rule file for uuv_control_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/progress.make
 
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/TrajectoryPoint.h
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/Trajectory.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/WaypointSet.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/TrajectoryPoint.h
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/Waypoint.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/StartTrajectory.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/AddWaypoint.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetMBSMControllerParams.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/ClearWaypoints.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetWaypoints.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitRectTrajectory.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetMBSMControllerParams.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/Hold.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitCircularTrajectory.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GoToIncremental.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitHelicalTrajectory.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetPIDParams.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/ResetController.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/WaypointSet.h
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetPIDParams.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetSMControllerParams.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SwitchToManual.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitWaypointSet.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitCircularTrajectory.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/AddWaypoint.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/ResetController.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GoToIncremental.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/ClearWaypoints.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/StartTrajectory.h
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitWaypointsFromFile.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetPIDParams.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetWaypoints.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/Hold.h
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/IsRunningTrajectory.h
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GoTo.h
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SwitchToAutomatic.h
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetSMControllerParams.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitRectTrajectory.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SwitchToManual.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetMBSMControllerParams.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitHelicalTrajectory.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetSMControllerParams.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetMBSMControllerParams.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SwitchToAutomatic.h
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitWaypointSet.h
 
+
+../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/Trajectory.h: ../uuv_control/uuv_control_msgs/msg/Trajectory.msg
+../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Accel.msg
+../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Twist.msg
+../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
+../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+../devel/include/uuv_control_msgs/Trajectory.h: ../uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg
+../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from uuv_control_msgs/Trajectory.msg"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg/Trajectory.msg -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_control_msgs/TrajectoryPoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_control_msgs/TrajectoryPoint.h: ../uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg
@@ -91,47 +105,42 @@ uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: 
 ../devel/include/uuv_control_msgs/TrajectoryPoint.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 ../devel/include/uuv_control_msgs/TrajectoryPoint.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
 ../devel/include/uuv_control_msgs/TrajectoryPoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from uuv_control_msgs/TrajectoryPoint.msg"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/Trajectory.h: ../uuv_control/uuv_control_msgs/msg/Trajectory.msg
-../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Accel.msg
-../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Twist.msg
-../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
-../devel/include/uuv_control_msgs/Trajectory.h: ../uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg
-../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-../devel/include/uuv_control_msgs/Trajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from uuv_control_msgs/Trajectory.msg"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg/Trajectory.msg -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/WaypointSet.h: ../uuv_control/uuv_control_msgs/msg/WaypointSet.msg
-../devel/include/uuv_control_msgs/WaypointSet.h: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
-../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from uuv_control_msgs/WaypointSet.msg"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg/WaypointSet.msg -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from uuv_control_msgs/TrajectoryPoint.msg"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_control_msgs/Waypoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_control_msgs/Waypoint.h: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
 ../devel/include/uuv_control_msgs/Waypoint.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 ../devel/include/uuv_control_msgs/Waypoint.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 ../devel/include/uuv_control_msgs/Waypoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from uuv_control_msgs/Waypoint.msg"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg/Waypoint.msg -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from uuv_control_msgs/Waypoint.msg"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg/Waypoint.msg -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-../devel/include/uuv_control_msgs/StartTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/StartTrajectory.h: ../uuv_control/uuv_control_msgs/srv/StartTrajectory.srv
-../devel/include/uuv_control_msgs/StartTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/StartTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from uuv_control_msgs/StartTrajectory.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/StartTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/WaypointSet.h: ../uuv_control/uuv_control_msgs/msg/WaypointSet.msg
+../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+../devel/include/uuv_control_msgs/WaypointSet.h: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
+../devel/include/uuv_control_msgs/WaypointSet.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from uuv_control_msgs/WaypointSet.msg"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg/WaypointSet.msg -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/GetPIDParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/GetPIDParams.h: ../uuv_control/uuv_control_msgs/srv/GetPIDParams.srv
+../devel/include/uuv_control_msgs/GetPIDParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/GetPIDParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from uuv_control_msgs/GetPIDParams.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetPIDParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/InitCircularTrajectory.h: ../uuv_control/uuv_control_msgs/srv/InitCircularTrajectory.srv
+../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from uuv_control_msgs/InitCircularTrajectory.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitCircularTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_control_msgs/AddWaypoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_control_msgs/AddWaypoint.h: ../uuv_control/uuv_control_msgs/srv/AddWaypoint.srv
@@ -140,22 +149,53 @@ uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: 
 ../devel/include/uuv_control_msgs/AddWaypoint.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 ../devel/include/uuv_control_msgs/AddWaypoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_control_msgs/AddWaypoint.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from uuv_control_msgs/AddWaypoint.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/AddWaypoint.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from uuv_control_msgs/AddWaypoint.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/AddWaypoint.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-../devel/include/uuv_control_msgs/SetMBSMControllerParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/SetMBSMControllerParams.h: ../uuv_control/uuv_control_msgs/srv/SetMBSMControllerParams.srv
-../devel/include/uuv_control_msgs/SetMBSMControllerParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/SetMBSMControllerParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from uuv_control_msgs/SetMBSMControllerParams.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetMBSMControllerParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+../devel/include/uuv_control_msgs/ResetController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/ResetController.h: ../uuv_control/uuv_control_msgs/srv/ResetController.srv
+../devel/include/uuv_control_msgs/ResetController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/ResetController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from uuv_control_msgs/ResetController.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/ResetController.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/GoToIncremental.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/GoToIncremental.h: ../uuv_control/uuv_control_msgs/srv/GoToIncremental.srv
+../devel/include/uuv_control_msgs/GoToIncremental.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/include/uuv_control_msgs/GoToIncremental.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/GoToIncremental.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from uuv_control_msgs/GoToIncremental.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoToIncremental.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_control_msgs/ClearWaypoints.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_control_msgs/ClearWaypoints.h: ../uuv_control/uuv_control_msgs/srv/ClearWaypoints.srv
 ../devel/include/uuv_control_msgs/ClearWaypoints.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_control_msgs/ClearWaypoints.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from uuv_control_msgs/ClearWaypoints.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/ClearWaypoints.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from uuv_control_msgs/ClearWaypoints.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/ClearWaypoints.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/StartTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/StartTrajectory.h: ../uuv_control/uuv_control_msgs/srv/StartTrajectory.srv
+../devel/include/uuv_control_msgs/StartTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/StartTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from uuv_control_msgs/StartTrajectory.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/StartTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: ../uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv
+../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/share/std_msgs/msg/String.msg
+../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from uuv_control_msgs/InitWaypointsFromFile.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/SetPIDParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/SetPIDParams.h: ../uuv_control/uuv_control_msgs/srv/SetPIDParams.srv
+../devel/include/uuv_control_msgs/SetPIDParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/SetPIDParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from uuv_control_msgs/SetPIDParams.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetPIDParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_control_msgs/GetWaypoints.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_control_msgs/GetWaypoints.h: ../uuv_control/uuv_control_msgs/srv/GetWaypoints.srv
@@ -164,120 +204,22 @@ uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: 
 ../devel/include/uuv_control_msgs/GetWaypoints.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 ../devel/include/uuv_control_msgs/GetWaypoints.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_control_msgs/GetWaypoints.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from uuv_control_msgs/GetWaypoints.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetWaypoints.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/InitRectTrajectory.h: ../uuv_control/uuv_control_msgs/srv/InitRectTrajectory.srv
-../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from uuv_control_msgs/InitRectTrajectory.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitRectTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/GetMBSMControllerParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/GetMBSMControllerParams.h: ../uuv_control/uuv_control_msgs/srv/GetMBSMControllerParams.srv
-../devel/include/uuv_control_msgs/GetMBSMControllerParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/GetMBSMControllerParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from uuv_control_msgs/GetMBSMControllerParams.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetMBSMControllerParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from uuv_control_msgs/GetWaypoints.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetWaypoints.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_control_msgs/Hold.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_control_msgs/Hold.h: ../uuv_control/uuv_control_msgs/srv/Hold.srv
 ../devel/include/uuv_control_msgs/Hold.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_control_msgs/Hold.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from uuv_control_msgs/Hold.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/Hold.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/InitCircularTrajectory.h: ../uuv_control/uuv_control_msgs/srv/InitCircularTrajectory.srv
-../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/InitCircularTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from uuv_control_msgs/InitCircularTrajectory.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitCircularTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/GoToIncremental.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/GoToIncremental.h: ../uuv_control/uuv_control_msgs/srv/GoToIncremental.srv
-../devel/include/uuv_control_msgs/GoToIncremental.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-../devel/include/uuv_control_msgs/GoToIncremental.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/GoToIncremental.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from uuv_control_msgs/GoToIncremental.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoToIncremental.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: ../uuv_control/uuv_control_msgs/srv/InitHelicalTrajectory.srv
-../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from uuv_control_msgs/InitHelicalTrajectory.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitHelicalTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/SetPIDParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/SetPIDParams.h: ../uuv_control/uuv_control_msgs/srv/SetPIDParams.srv
-../devel/include/uuv_control_msgs/SetPIDParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/SetPIDParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from uuv_control_msgs/SetPIDParams.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetPIDParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/ResetController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/ResetController.h: ../uuv_control/uuv_control_msgs/srv/ResetController.srv
-../devel/include/uuv_control_msgs/ResetController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/ResetController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from uuv_control_msgs/ResetController.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/ResetController.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/GetPIDParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/GetPIDParams.h: ../uuv_control/uuv_control_msgs/srv/GetPIDParams.srv
-../devel/include/uuv_control_msgs/GetPIDParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/GetPIDParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from uuv_control_msgs/GetPIDParams.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetPIDParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/SetSMControllerParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/SetSMControllerParams.h: ../uuv_control/uuv_control_msgs/srv/SetSMControllerParams.srv
-../devel/include/uuv_control_msgs/SetSMControllerParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/SetSMControllerParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from uuv_control_msgs/SetSMControllerParams.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetSMControllerParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/SwitchToManual.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/SwitchToManual.h: ../uuv_control/uuv_control_msgs/srv/SwitchToManual.srv
-../devel/include/uuv_control_msgs/SwitchToManual.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/SwitchToManual.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from uuv_control_msgs/SwitchToManual.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SwitchToManual.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/InitWaypointSet.h: ../uuv_control/uuv_control_msgs/srv/InitWaypointSet.srv
-../devel/include/uuv_control_msgs/InitWaypointSet.h: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
-../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/String.msg
-../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from uuv_control_msgs/InitWaypointSet.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointSet.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: ../uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv
-../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/share/std_msgs/msg/String.msg
-../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/InitWaypointsFromFile.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from uuv_control_msgs/InitWaypointsFromFile.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from uuv_control_msgs/Hold.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/Hold.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_control_msgs/IsRunningTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_control_msgs/IsRunningTrajectory.h: ../uuv_control/uuv_control_msgs/srv/IsRunningTrajectory.srv
 ../devel/include/uuv_control_msgs/IsRunningTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_control_msgs/IsRunningTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from uuv_control_msgs/IsRunningTrajectory.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/IsRunningTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from uuv_control_msgs/IsRunningTrajectory.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/IsRunningTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_control_msgs/GoTo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_control_msgs/GoTo.h: ../uuv_control/uuv_control_msgs/srv/GoTo.srv
@@ -286,50 +228,108 @@ uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp: 
 ../devel/include/uuv_control_msgs/GoTo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 ../devel/include/uuv_control_msgs/GoTo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_control_msgs/GoTo.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from uuv_control_msgs/GoTo.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoTo.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_control_msgs/SwitchToAutomatic.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_control_msgs/SwitchToAutomatic.h: ../uuv_control/uuv_control_msgs/srv/SwitchToAutomatic.srv
-../devel/include/uuv_control_msgs/SwitchToAutomatic.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_control_msgs/SwitchToAutomatic.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from uuv_control_msgs/SwitchToAutomatic.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SwitchToAutomatic.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from uuv_control_msgs/GoTo.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoTo.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_control_msgs/GetSMControllerParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_control_msgs/GetSMControllerParams.h: ../uuv_control/uuv_control_msgs/srv/GetSMControllerParams.srv
 ../devel/include/uuv_control_msgs/GetSMControllerParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_control_msgs/GetSMControllerParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from uuv_control_msgs/GetSMControllerParams.srv"
-	cd /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetSMControllerParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from uuv_control_msgs/GetSMControllerParams.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetSMControllerParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/InitRectTrajectory.h: ../uuv_control/uuv_control_msgs/srv/InitRectTrajectory.srv
+../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/InitRectTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from uuv_control_msgs/InitRectTrajectory.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitRectTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/SwitchToManual.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/SwitchToManual.h: ../uuv_control/uuv_control_msgs/srv/SwitchToManual.srv
+../devel/include/uuv_control_msgs/SwitchToManual.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/SwitchToManual.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from uuv_control_msgs/SwitchToManual.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SwitchToManual.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/SetMBSMControllerParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/SetMBSMControllerParams.h: ../uuv_control/uuv_control_msgs/srv/SetMBSMControllerParams.srv
+../devel/include/uuv_control_msgs/SetMBSMControllerParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/SetMBSMControllerParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from uuv_control_msgs/SetMBSMControllerParams.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetMBSMControllerParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: ../uuv_control/uuv_control_msgs/srv/InitHelicalTrajectory.srv
+../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/InitHelicalTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from uuv_control_msgs/InitHelicalTrajectory.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitHelicalTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/SetSMControllerParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/SetSMControllerParams.h: ../uuv_control/uuv_control_msgs/srv/SetSMControllerParams.srv
+../devel/include/uuv_control_msgs/SetSMControllerParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/SetSMControllerParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from uuv_control_msgs/SetSMControllerParams.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetSMControllerParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/GetMBSMControllerParams.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/GetMBSMControllerParams.h: ../uuv_control/uuv_control_msgs/srv/GetMBSMControllerParams.srv
+../devel/include/uuv_control_msgs/GetMBSMControllerParams.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/GetMBSMControllerParams.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from uuv_control_msgs/GetMBSMControllerParams.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetMBSMControllerParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/SwitchToAutomatic.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/SwitchToAutomatic.h: ../uuv_control/uuv_control_msgs/srv/SwitchToAutomatic.srv
+../devel/include/uuv_control_msgs/SwitchToAutomatic.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/SwitchToAutomatic.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from uuv_control_msgs/SwitchToAutomatic.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SwitchToAutomatic.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_control_msgs/InitWaypointSet.h: ../uuv_control/uuv_control_msgs/srv/InitWaypointSet.srv
+../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/String.msg
+../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+../devel/include/uuv_control_msgs/InitWaypointSet.h: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
+../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_control_msgs/InitWaypointSet.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from uuv_control_msgs/InitWaypointSet.srv"
+	cd /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointSet.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_control_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 uuv_control_msgs_generate_messages_cpp: uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/TrajectoryPoint.h
 uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/Trajectory.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/WaypointSet.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/TrajectoryPoint.h
 uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/Waypoint.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/StartTrajectory.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/AddWaypoint.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetMBSMControllerParams.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/ClearWaypoints.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetWaypoints.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitRectTrajectory.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetMBSMControllerParams.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/Hold.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitCircularTrajectory.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GoToIncremental.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitHelicalTrajectory.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetPIDParams.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/ResetController.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/WaypointSet.h
 uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetPIDParams.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetSMControllerParams.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SwitchToManual.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitWaypointSet.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitCircularTrajectory.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/AddWaypoint.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/ResetController.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GoToIncremental.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/ClearWaypoints.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/StartTrajectory.h
 uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitWaypointsFromFile.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetPIDParams.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetWaypoints.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/Hold.h
 uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/IsRunningTrajectory.h
 uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GoTo.h
-uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SwitchToAutomatic.h
 uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetSMControllerParams.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitRectTrajectory.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SwitchToManual.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetMBSMControllerParams.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitHelicalTrajectory.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SetSMControllerParams.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/GetMBSMControllerParams.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/SwitchToAutomatic.h
+uuv_control_msgs_generate_messages_cpp: ../devel/include/uuv_control_msgs/InitWaypointSet.h
 uuv_control_msgs_generate_messages_cpp: uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : uuv_control_msgs_generate_messages_cpp
@@ -340,10 +340,10 @@ uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.d
 .PHONY : uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/build
 
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/clean
 
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_cpp.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/arslanali/uuv_simulator/uuv_control/uuv_auv_control_allocator
+# Install script for directory: /home/arslan/uuv_simulator/uuv_control/uuv_auv_control_allocator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arslanali/uuv_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arslan/uuv_simulator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,65 +33,65 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/safe_execute_install.cmake")
+  include("/home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator/msg" TYPE FILE FILES "/home/arslanali/uuv_simulator/uuv_control/uuv_auv_control_allocator/msg/AUVCommand.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator/msg" TYPE FILE FILES "/home/arslan/uuv_simulator/uuv_control/uuv_auv_control_allocator/msg/AUVCommand.msg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator/cmake" TYPE FILE FILES "/home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocator-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator/cmake" TYPE FILE FILES "/home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocator-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/arslanali/uuv_simulator/devel/include/uuv_auv_control_allocator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/arslan/uuv_simulator/devel/include/uuv_auv_control_allocator")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/arslanali/uuv_simulator/devel/share/roseus/ros/uuv_auv_control_allocator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/arslan/uuv_simulator/devel/share/roseus/ros/uuv_auv_control_allocator")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/arslanali/uuv_simulator/devel/share/common-lisp/ros/uuv_auv_control_allocator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/arslan/uuv_simulator/devel/share/common-lisp/ros/uuv_auv_control_allocator")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/arslanali/uuv_simulator/devel/share/gennodejs/ros/uuv_auv_control_allocator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/arslan/uuv_simulator/devel/share/gennodejs/ros/uuv_auv_control_allocator")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_auv_control_allocator")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_auv_control_allocator")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_auv_control_allocator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_auv_control_allocator")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocator.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocator.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator/cmake" TYPE FILE FILES "/home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocator-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator/cmake" TYPE FILE FILES "/home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocator-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator/cmake" TYPE FILE FILES
-    "/home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocatorConfig.cmake"
-    "/home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocatorConfig-version.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocatorConfig.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/uuv_auv_control_allocatorConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator" TYPE FILE FILES "/home/arslanali/uuv_simulator/uuv_control/uuv_auv_control_allocator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator" TYPE FILE FILES "/home/arslan/uuv_simulator/uuv_control/uuv_auv_control_allocator/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_auv_control_allocator" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/control_allocator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_auv_control_allocator" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_control/uuv_auv_control_allocator/catkin_generated/installspace/control_allocator")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator" TYPE DIRECTORY FILES "/home/arslanali/uuv_simulator/uuv_control/uuv_auv_control_allocator/launch" REGEX "/[^/]*\\~$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_auv_control_allocator" TYPE DIRECTORY FILES "/home/arslan/uuv_simulator/uuv_control/uuv_auv_control_allocator/launch" REGEX "/[^/]*\\~$" EXCLUDE)
 endif()
 

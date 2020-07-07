@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/arslanali/uuv_simulator/uuv_control/uuv_control_cascaded_pids/src".split(";")
+__extended_path = "/home/arslan/uuv_simulator/uuv_control/uuv_control_cascaded_pids/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

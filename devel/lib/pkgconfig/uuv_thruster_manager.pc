@@ -1,8 +1,8 @@
-prefix=/home/arslanali/uuv_simulator/devel
+prefix=/home/arslan/uuv_simulator/devel
 
 Name: uuv_thruster_manager
 Description: Description of uuv_thruster_manager
 Version: 0.6.13
-Cflags: -I/home/arslanali/uuv_simulator/devel/include
+Cflags: -I/home/arslan/uuv_simulator/devel/include
 Libs: -L${prefix}/lib 
 Requires: std_msgs message_runtime

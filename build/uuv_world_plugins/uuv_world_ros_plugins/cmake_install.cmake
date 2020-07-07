@@ -1,8 +1,8 @@
-# Install script for directory: /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins
+# Install script for directory: /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arslanali/uuv_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arslan/uuv_simulator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslanali/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins/catkin_generated/installspace/uuv_world_ros_plugins.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslan/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins/catkin_generated/installspace/uuv_world_ros_plugins.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_world_ros_plugins/cmake" TYPE FILE FILES
-    "/home/arslanali/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins/catkin_generated/installspace/uuv_world_ros_pluginsConfig.cmake"
-    "/home/arslanali/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins/catkin_generated/installspace/uuv_world_ros_pluginsConfig-version.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins/catkin_generated/installspace/uuv_world_ros_pluginsConfig.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins/catkin_generated/installspace/uuv_world_ros_pluginsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_world_ros_plugins" TYPE FILE FILES "/home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_world_ros_plugins" TYPE FILE FILES "/home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,12 +54,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_underwater_current_ros_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/arslanali/uuv_simulator/devel/lib/libuuv_underwater_current_ros_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/arslan/uuv_simulator/devel/lib/libuuv_underwater_current_ros_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_underwater_current_ros_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_underwater_current_ros_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_underwater_current_ros_plugin.so"
-         OLD_RPATH "/opt/ros/kinetic/lib:/home/arslanali/uuv_simulator/devel/lib:"
+         OLD_RPATH "/opt/ros/kinetic/lib:/home/arslan/uuv_simulator/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_underwater_current_ros_plugin.so")
@@ -74,12 +74,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_sc_ros_interface_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/arslanali/uuv_simulator/devel/lib/libuuv_sc_ros_interface_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/arslan/uuv_simulator/devel/lib/libuuv_sc_ros_interface_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_sc_ros_interface_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_sc_ros_interface_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_sc_ros_interface_plugin.so"
-         OLD_RPATH "/opt/ros/kinetic/lib:/home/arslanali/uuv_simulator/devel/lib:"
+         OLD_RPATH "/opt/ros/kinetic/lib:/home/arslan/uuv_simulator/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libuuv_sc_ros_interface_plugin.so")
@@ -88,6 +88,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/uuv_world_ros_plugins" TYPE DIRECTORY FILES "/home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.\\~$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/uuv_world_ros_plugins" TYPE DIRECTORY FILES "/home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.\\~$" EXCLUDE)
 endif()
 

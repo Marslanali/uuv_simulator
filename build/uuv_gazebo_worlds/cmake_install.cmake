@@ -1,8 +1,8 @@
-# Install script for directory: /home/arslanali/uuv_simulator/uuv_gazebo_worlds
+# Install script for directory: /home/arslan/uuv_simulator/uuv_gazebo_worlds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arslanali/uuv_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arslan/uuv_simulator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,26 +33,26 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslanali/uuv_simulator/build/uuv_gazebo_worlds/catkin_generated/installspace/uuv_gazebo_worlds.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslan/uuv_simulator/build/uuv_gazebo_worlds/catkin_generated/installspace/uuv_gazebo_worlds.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_gazebo_worlds/cmake" TYPE FILE FILES
-    "/home/arslanali/uuv_simulator/build/uuv_gazebo_worlds/catkin_generated/installspace/uuv_gazebo_worldsConfig.cmake"
-    "/home/arslanali/uuv_simulator/build/uuv_gazebo_worlds/catkin_generated/installspace/uuv_gazebo_worldsConfig-version.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_gazebo_worlds/catkin_generated/installspace/uuv_gazebo_worldsConfig.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_gazebo_worlds/catkin_generated/installspace/uuv_gazebo_worldsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_gazebo_worlds" TYPE FILE FILES "/home/arslanali/uuv_simulator/uuv_gazebo_worlds/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_gazebo_worlds" TYPE FILE FILES "/home/arslan/uuv_simulator/uuv_gazebo_worlds/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_gazebo_worlds" TYPE DIRECTORY FILES
-    "/home/arslanali/uuv_simulator/uuv_gazebo_worlds/launch"
-    "/home/arslanali/uuv_simulator/uuv_gazebo_worlds/Media"
-    "/home/arslanali/uuv_simulator/uuv_gazebo_worlds/worlds"
-    "/home/arslanali/uuv_simulator/uuv_gazebo_worlds/models"
+    "/home/arslan/uuv_simulator/uuv_gazebo_worlds/launch"
+    "/home/arslan/uuv_simulator/uuv_gazebo_worlds/Media"
+    "/home/arslan/uuv_simulator/uuv_gazebo_worlds/worlds"
+    "/home/arslan/uuv_simulator/uuv_gazebo_worlds/models"
     REGEX "/[^/]*\\~$" EXCLUDE)
 endif()
 

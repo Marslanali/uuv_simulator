@@ -7,7 +7,7 @@ add_definitions(-std=c++11)
 find_package(catkin REQUIRED COMPONENTS
     gazebo_dev)
 find_package(Boost REQUIRED COMPONENTS system)
-find_package(Eigen3 3.1.0 REQUIRED)
+find_package(Eigen3 REQUIRED)
 find_package(Protobuf REQUIRED)
 
 file(MAKE_DIRECTORY ${PROJECT_BINARY_DIR}/msgs)

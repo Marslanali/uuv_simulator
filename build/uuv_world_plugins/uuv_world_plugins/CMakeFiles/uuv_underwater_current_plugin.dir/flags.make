@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -fPIC   -std=c++11
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Duuv_underwater_current_plugin_EXPORTS
 
-CXX_INCLUDES = -I/home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include -I/opt/ros/kinetic/include -I/usr/include/gazebo-7 -I/usr/include/sdformat-4.0 -I/usr/include/ignition/math2 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging 
+CXX_INCLUDES = -I/home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include -I/opt/ros/kinetic/include -I/usr/include/gazebo-7 -I/usr/include/sdformat-4.0 -I/usr/include/ignition/math2 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging 
 

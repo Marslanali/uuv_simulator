@@ -23,7 +23,7 @@ uuv_world_plugins/uuv_world_ros_plugins/CMakeFiles/uuv_underwater_current_ros_pl
  ../uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh
  ../uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/UnderwaterCurrentPlugin.hh
  ../uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh
- /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc
+ /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc
  /opt/ros/kinetic/include/geometry_msgs/Twist.h
  /opt/ros/kinetic/include/geometry_msgs/TwistStamped.h
  /opt/ros/kinetic/include/geometry_msgs/Vector3.h

@@ -43,45 +43,58 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Utility rule file for uuv_control_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.dir/progress.make
 
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Waypoint.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetPIDParams.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_IsRunningTrajectory.py
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoTo.py
-uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetSMControllerParams.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py
+uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py
 
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: ../uuv_control/uuv_control_msgs/msg/Trajectory.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Accel.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Twist.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: ../uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG uuv_control_msgs/Trajectory"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg/Trajectory.msg -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py: ../uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg
@@ -92,258 +105,245 @@ uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py: .
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG uuv_control_msgs/TrajectoryPoint"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: ../uuv_control/uuv_control_msgs/msg/Trajectory.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Accel.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Twist.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: ../uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG uuv_control_msgs/Trajectory"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg/Trajectory.msg -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: ../uuv_control/uuv_control_msgs/msg/WaypointSet.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG uuv_control_msgs/WaypointSet"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg/WaypointSet.msg -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG uuv_control_msgs/TrajectoryPoint"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Waypoint.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Waypoint.py: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Waypoint.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Waypoint.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG uuv_control_msgs/Waypoint"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg/Waypoint.msg -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG uuv_control_msgs/Waypoint"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg/Waypoint.msg -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg
 
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py: ../uuv_control/uuv_control_msgs/srv/StartTrajectory.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV uuv_control_msgs/StartTrajectory"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/StartTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: ../uuv_control/uuv_control_msgs/msg/WaypointSet.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG uuv_control_msgs/WaypointSet"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg/WaypointSet.msg -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetPIDParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetPIDParams.py: ../uuv_control/uuv_control_msgs/srv/GetPIDParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV uuv_control_msgs/GetPIDParams"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetPIDParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py: ../uuv_control/uuv_control_msgs/srv/InitCircularTrajectory.srv
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python code from SRV uuv_control_msgs/InitCircularTrajectory"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitCircularTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py: ../uuv_control/uuv_control_msgs/srv/AddWaypoint.srv
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python code from SRV uuv_control_msgs/AddWaypoint"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/AddWaypoint.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python code from SRV uuv_control_msgs/AddWaypoint"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/AddWaypoint.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
 
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py: ../uuv_control/uuv_control_msgs/srv/SetMBSMControllerParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python code from SRV uuv_control_msgs/SetMBSMControllerParams"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetMBSMControllerParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py: ../uuv_control/uuv_control_msgs/srv/ResetController.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python code from SRV uuv_control_msgs/ResetController"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/ResetController.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py: ../uuv_control/uuv_control_msgs/srv/GoToIncremental.srv
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV uuv_control_msgs/GoToIncremental"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoToIncremental.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py: ../uuv_control/uuv_control_msgs/srv/ClearWaypoints.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python code from SRV uuv_control_msgs/ClearWaypoints"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/ClearWaypoints.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python code from SRV uuv_control_msgs/ClearWaypoints"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/ClearWaypoints.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py: ../uuv_control/uuv_control_msgs/srv/StartTrajectory.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python code from SRV uuv_control_msgs/StartTrajectory"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/StartTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py: ../uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py: /opt/ros/kinetic/share/std_msgs/msg/String.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python code from SRV uuv_control_msgs/InitWaypointsFromFile"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py: ../uuv_control/uuv_control_msgs/srv/SetPIDParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python code from SRV uuv_control_msgs/SetPIDParams"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetPIDParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py: ../uuv_control/uuv_control_msgs/srv/GetWaypoints.srv
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV uuv_control_msgs/GetWaypoints"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetWaypoints.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py: ../uuv_control/uuv_control_msgs/srv/InitRectTrajectory.srv
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python code from SRV uuv_control_msgs/InitRectTrajectory"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitRectTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py: ../uuv_control/uuv_control_msgs/srv/GetMBSMControllerParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python code from SRV uuv_control_msgs/GetMBSMControllerParams"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetMBSMControllerParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python code from SRV uuv_control_msgs/GetWaypoints"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetWaypoints.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py: ../uuv_control/uuv_control_msgs/srv/Hold.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python code from SRV uuv_control_msgs/Hold"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/Hold.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py: ../uuv_control/uuv_control_msgs/srv/InitCircularTrajectory.srv
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python code from SRV uuv_control_msgs/InitCircularTrajectory"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitCircularTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py: ../uuv_control/uuv_control_msgs/srv/GoToIncremental.srv
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python code from SRV uuv_control_msgs/GoToIncremental"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoToIncremental.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py: ../uuv_control/uuv_control_msgs/srv/InitHelicalTrajectory.srv
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python code from SRV uuv_control_msgs/InitHelicalTrajectory"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitHelicalTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py: ../uuv_control/uuv_control_msgs/srv/SetPIDParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python code from SRV uuv_control_msgs/SetPIDParams"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetPIDParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py: ../uuv_control/uuv_control_msgs/srv/ResetController.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python code from SRV uuv_control_msgs/ResetController"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/ResetController.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetPIDParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetPIDParams.py: ../uuv_control/uuv_control_msgs/srv/GetPIDParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python code from SRV uuv_control_msgs/GetPIDParams"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetPIDParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py: ../uuv_control/uuv_control_msgs/srv/SetSMControllerParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python code from SRV uuv_control_msgs/SetSMControllerParams"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetSMControllerParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py: ../uuv_control/uuv_control_msgs/srv/SwitchToManual.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Python code from SRV uuv_control_msgs/SwitchToManual"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SwitchToManual.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: ../uuv_control/uuv_control_msgs/srv/InitWaypointSet.srv
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/String.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Python code from SRV uuv_control_msgs/InitWaypointSet"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointSet.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py: ../uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py: /opt/ros/kinetic/share/std_msgs/msg/String.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python code from SRV uuv_control_msgs/InitWaypointsFromFile"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python code from SRV uuv_control_msgs/Hold"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/Hold.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_IsRunningTrajectory.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_IsRunningTrajectory.py: ../uuv_control/uuv_control_msgs/srv/IsRunningTrajectory.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python code from SRV uuv_control_msgs/IsRunningTrajectory"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/IsRunningTrajectory.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python code from SRV uuv_control_msgs/IsRunningTrajectory"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/IsRunningTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoTo.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoTo.py: ../uuv_control/uuv_control_msgs/srv/GoTo.srv
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoTo.py: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoTo.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoTo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Python code from SRV uuv_control_msgs/GoTo"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoTo.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
-
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py: ../uuv_control/uuv_control_msgs/srv/SwitchToAutomatic.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Python code from SRV uuv_control_msgs/SwitchToAutomatic"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/SwitchToAutomatic.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python code from SRV uuv_control_msgs/GoTo"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoTo.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetSMControllerParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetSMControllerParams.py: ../uuv_control/uuv_control_msgs/srv/GetSMControllerParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Python code from SRV uuv_control_msgs/GetSMControllerParams"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetSMControllerParams.srv -Iuuv_control_msgs:/home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python code from SRV uuv_control_msgs/GetSMControllerParams"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetSMControllerParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py: ../uuv_control/uuv_control_msgs/srv/InitRectTrajectory.srv
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python code from SRV uuv_control_msgs/InitRectTrajectory"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitRectTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py: ../uuv_control/uuv_control_msgs/srv/SwitchToManual.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Python code from SRV uuv_control_msgs/SwitchToManual"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SwitchToManual.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py: ../uuv_control/uuv_control_msgs/srv/SetMBSMControllerParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Python code from SRV uuv_control_msgs/SetMBSMControllerParams"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetMBSMControllerParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py: ../uuv_control/uuv_control_msgs/srv/InitHelicalTrajectory.srv
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python code from SRV uuv_control_msgs/InitHelicalTrajectory"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitHelicalTrajectory.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py: ../uuv_control/uuv_control_msgs/srv/SetSMControllerParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python code from SRV uuv_control_msgs/SetSMControllerParams"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SetSMControllerParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py: ../uuv_control/uuv_control_msgs/srv/GetMBSMControllerParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Python code from SRV uuv_control_msgs/GetMBSMControllerParams"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/GetMBSMControllerParams.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py: ../uuv_control/uuv_control_msgs/srv/SwitchToAutomatic.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Python code from SRV uuv_control_msgs/SwitchToAutomatic"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/SwitchToAutomatic.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
+
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: ../uuv_control/uuv_control_msgs/srv/InitWaypointSet.srv
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/Time.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/String.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py: ../uuv_control/uuv_control_msgs/msg/Waypoint.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Python code from SRV uuv_control_msgs/InitWaypointSet"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointSet.srv -Iuuv_control_msgs:/home/arslan/uuv_simulator/uuv_control/uuv_control_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_control_msgs -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Waypoint.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetPIDParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_IsRunningTrajectory.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoTo.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetSMControllerParams.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Python msg __init__.py for uuv_control_msgs"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg --initpy
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Python msg __init__.py for uuv_control_msgs"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/msg --initpy
 
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Waypoint.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetPIDParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_IsRunningTrajectory.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoTo.py
-../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py
 ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetSMControllerParams.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Python srv __init__.py for uuv_control_msgs"
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arslanali/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv --initpy
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py
+../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Python srv __init__.py for uuv_control_msgs"
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arslan/uuv_simulator/devel/lib/python2.7/dist-packages/uuv_control_msgs/srv --initpy
 
 uuv_control_msgs_generate_messages_py: uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py
 uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Trajectory.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_TrajectoryPoint.py
 uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_Waypoint.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/_WaypointSet.py
 uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetPIDParams.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitCircularTrajectory.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_AddWaypoint.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ResetController.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoToIncremental.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_ClearWaypoints.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_StartTrajectory.py
 uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointsFromFile.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetPIDParams.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetWaypoints.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_Hold.py
 uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_IsRunningTrajectory.py
 uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GoTo.py
-uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py
 uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetSMControllerParams.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitRectTrajectory.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToManual.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetMBSMControllerParams.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitHelicalTrajectory.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SetSMControllerParams.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_GetMBSMControllerParams.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_SwitchToAutomatic.py
+uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/_InitWaypointSet.py
 uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/msg/__init__.py
 uuv_control_msgs_generate_messages_py: ../devel/lib/python2.7/dist-packages/uuv_control_msgs/srv/__init__.py
 uuv_control_msgs_generate_messages_py: uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.dir/build.make
@@ -356,10 +356,10 @@ uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.di
 .PHONY : uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.dir/build
 
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/uuv_control_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/uuv_control_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.dir/clean
 
 uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_control/uuv_control_msgs /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs /home/arslanali/uuv_simulator/build/uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_control/uuv_control_msgs /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs /home/arslan/uuv_simulator/build/uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_control/uuv_control_msgs/CMakeFiles/uuv_control_msgs_generate_messages_py.dir/depend
 

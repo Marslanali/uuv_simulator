@@ -43,92 +43,92 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Utility rule file for uuv_world_ros_plugins_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/progress.make
 
-uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h
 uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h
 uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h
-uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h
 uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h
-uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h
 uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h
+uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h
+uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h
+uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h
 uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/GetCurrentModel.h
 
+
+../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord.srv
+../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.srv"
+	cd /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord.srv
+../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.srv"
+	cd /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection.srv
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from uuv_world_ros_plugins_msgs/SetCurrentDirection.srv"
+	cd /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity.srv
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from uuv_world_ros_plugins_msgs/SetCurrentVelocity.srv"
+	cd /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord.srv
 ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from uuv_world_ros_plugins_msgs/TransformToSphericalCoord.srv"
-	cd /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from uuv_world_ros_plugins_msgs/TransformToSphericalCoord.srv"
+	cd /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord.srv
-../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.srv"
-	cd /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord.srv
-../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.srv"
-	cd /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentModel.srv
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from uuv_world_ros_plugins_msgs/SetCurrentModel.srv"
+	cd /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentModel.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord.srv
 ../devel/include/uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 ../devel/include/uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.srv"
-	cd /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection.srv
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from uuv_world_ros_plugins_msgs/SetCurrentDirection.srv"
-	cd /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentModel.srv
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from uuv_world_ros_plugins_msgs/SetCurrentModel.srv"
-	cd /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentModel.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity.srv
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from uuv_world_ros_plugins_msgs/SetCurrentVelocity.srv"
-	cd /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.srv"
+	cd /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ../devel/include/uuv_world_ros_plugins_msgs/GetCurrentModel.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 ../devel/include/uuv_world_ros_plugins_msgs/GetCurrentModel.h: ../uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/GetCurrentModel.srv
 ../devel/include/uuv_world_ros_plugins_msgs/GetCurrentModel.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 ../devel/include/uuv_world_ros_plugins_msgs/GetCurrentModel.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from uuv_world_ros_plugins_msgs/GetCurrentModel.srv"
-	cd /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslanali/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/GetCurrentModel.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslanali/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from uuv_world_ros_plugins_msgs/GetCurrentModel.srv"
+	cd /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs && /home/arslan/uuv_simulator/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs/srv/GetCurrentModel.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p uuv_world_ros_plugins_msgs -o /home/arslan/uuv_simulator/devel/include/uuv_world_ros_plugins_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 uuv_world_ros_plugins_msgs_generate_messages_cpp: uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp
-uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h
 uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h
 uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h
-uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h
 uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetCurrentDirection.h
-uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h
 uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetCurrentVelocity.h
+uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h
+uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/SetCurrentModel.h
+uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h
 uuv_world_ros_plugins_msgs_generate_messages_cpp: ../devel/include/uuv_world_ros_plugins_msgs/GetCurrentModel.h
 uuv_world_ros_plugins_msgs_generate_messages_cpp: uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/build.make
 
@@ -140,10 +140,10 @@ uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_ms
 .PHONY : uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/build
 
 uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins_msgs && $(CMAKE_COMMAND) -P CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins_msgs && $(CMAKE_COMMAND) -P CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/clean
 
 uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins_msgs /home/arslanali/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins_msgs /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins_msgs /home/arslan/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_world_plugins/uuv_world_ros_plugins_msgs/CMakeFiles/uuv_world_ros_plugins_msgs_generate_messages_cpp.dir/depend
 

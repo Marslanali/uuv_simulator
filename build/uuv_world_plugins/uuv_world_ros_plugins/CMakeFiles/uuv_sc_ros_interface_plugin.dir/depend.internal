@@ -15,7 +15,7 @@ uuv_world_plugins/uuv_world_ros_plugins/CMakeFiles/uuv_sc_ros_interface_plugin.d
  ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoordRequest.h
  ../devel/include/uuv_world_ros_plugins_msgs/TransformToSphericalCoordResponse.h
  ../uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh
- /home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc
+ /home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc
  /opt/ros/kinetic/include/geometry_msgs/Vector3.h
  /opt/ros/kinetic/include/ros/advertise_options.h
  /opt/ros/kinetic/include/ros/advertise_service_options.h

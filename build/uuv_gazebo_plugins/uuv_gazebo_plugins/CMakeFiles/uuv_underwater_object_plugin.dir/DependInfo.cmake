@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/BuoyantObject.cc" "/home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.o"
-  "/home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/HydrodynamicModel.cc" "/home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.o"
-  "/home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc" "/home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.o"
+  "/home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/BuoyantObject.cc" "/home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.o"
+  "/home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/HydrodynamicModel.cc" "/home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.o"
+  "/home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc" "/home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,6 +26,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/OGRE/Terrain"
   "/usr/include/OGRE/Paging"
   "/usr/include/gazebo-7/gazebo/msgs"
+  "/usr/include/eigen3"
   )
 
 # Targets to which this target links.

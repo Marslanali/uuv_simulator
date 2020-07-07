@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc" "/home/arslanali/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins/CMakeFiles/uuv_sc_ros_interface_plugin.dir/src/SphericalCoordinatesROSInterfacePlugin.cc.o"
+  "/home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc" "/home/arslan/uuv_simulator/build/uuv_world_plugins/uuv_world_ros_plugins/CMakeFiles/uuv_sc_ros_interface_plugin.dir/src/SphericalCoordinatesROSInterfacePlugin.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -32,7 +32,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/arslanali/uuv_simulator/build/uuv_world_plugins/uuv_world_plugins/CMakeFiles/uuv_underwater_current_plugin.dir/DependInfo.cmake"
+  "/home/arslan/uuv_simulator/build/uuv_world_plugins/uuv_world_plugins/CMakeFiles/uuv_underwater_current_plugin.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

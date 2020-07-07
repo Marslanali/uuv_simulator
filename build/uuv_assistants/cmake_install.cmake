@@ -1,8 +1,8 @@
-# Install script for directory: /home/arslanali/uuv_simulator/uuv_assistants
+# Install script for directory: /home/arslan/uuv_simulator/uuv_assistants
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arslanali/uuv_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arslan/uuv_simulator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,54 +33,54 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/safe_execute_install.cmake")
+  include("/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/uuv_assistants.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/uuv_assistants.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_assistants/cmake" TYPE FILE FILES
-    "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/uuv_assistantsConfig.cmake"
-    "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/uuv_assistantsConfig-version.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/uuv_assistantsConfig.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/uuv_assistantsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_assistants" TYPE FILE FILES "/home/arslanali/uuv_simulator/uuv_assistants/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_assistants" TYPE FILE FILES "/home/arslan/uuv_simulator/uuv_assistants/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/publish_footprints.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/publish_footprints.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/set_simulation_timer.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/set_simulation_timer.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/publish_world_models.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/publish_world_models.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/publish_vehicle_footprint.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/publish_vehicle_footprint.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/unpause_simulation.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/unpause_simulation.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/create_new_robot_model")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/create_new_robot_model")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/create_thruster_manager_configuration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_assistants/catkin_generated/installspace/create_thruster_manager_configuration")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_assistants" TYPE DIRECTORY FILES "/home/arslanali/uuv_simulator/uuv_assistants/launch" REGEX "/[^/]*\\~$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_assistants" TYPE DIRECTORY FILES "/home/arslan/uuv_simulator/uuv_assistants/launch" REGEX "/[^/]*\\~$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -90,7 +90,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants/uuv_message_to_tf"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE EXECUTABLE FILES "/home/arslanali/uuv_simulator/devel/lib/uuv_assistants/uuv_message_to_tf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants" TYPE EXECUTABLE FILES "/home/arslan/uuv_simulator/devel/lib/uuv_assistants/uuv_message_to_tf")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants/uuv_message_to_tf" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/uuv_assistants/uuv_message_to_tf")
     file(RPATH_CHANGE

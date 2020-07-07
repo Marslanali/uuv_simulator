@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include/gazebo-7/gazeb
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-luuv_underwater_object_plugin;-luuv_thruster_plugin;-luuv_fin_plugin;-luuv_dynamics".split(';') if "-luuv_underwater_object_plugin;-luuv_thruster_plugin;-luuv_fin_plugin;-luuv_dynamics" != "" else []
 PROJECT_NAME = "uuv_gazebo_plugins"
-PROJECT_SPACE_DIR = "/home/arslanali/uuv_simulator/install"
+PROJECT_SPACE_DIR = "/home/arslan/uuv_simulator/install"
 PROJECT_VERSION = "0.6.13"

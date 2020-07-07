@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Utility rule file for run_tests_uuv_gazebo_plugins_gtest.
 
@@ -63,10 +63,10 @@ uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/run_tests_uuv_gazebo_plugins_gt
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/run_tests_uuv_gazebo_plugins_gtest.dir/build
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/run_tests_uuv_gazebo_plugins_gtest.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_uuv_gazebo_plugins_gtest.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_uuv_gazebo_plugins_gtest.dir/cmake_clean.cmake
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/run_tests_uuv_gazebo_plugins_gtest.dir/clean
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/run_tests_uuv_gazebo_plugins_gtest.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/run_tests_uuv_gazebo_plugins_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/run_tests_uuv_gazebo_plugins_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/run_tests_uuv_gazebo_plugins_gtest.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Include any dependencies generated for this target.
 include uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/depend.make
@@ -59,16 +59,16 @@ include uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_p
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.o: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/flags.make
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.o: ../uuv_gazebo_plugins/uuv_gazebo_plugins/src/HydrodynamicModel.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.o"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.o -c /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/HydrodynamicModel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.o"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.o -c /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/HydrodynamicModel.cc
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.i"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/HydrodynamicModel.cc > CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.i
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/HydrodynamicModel.cc > CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.i
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.s"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/HydrodynamicModel.cc -o CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.s
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/HydrodynamicModel.cc -o CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.s
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/HydrodynamicModel.cc.o.requires:
 
@@ -83,16 +83,16 @@ uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.di
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.o: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/flags.make
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.o: ../uuv_gazebo_plugins/uuv_gazebo_plugins/src/BuoyantObject.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.o"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.o -c /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/BuoyantObject.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.o"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.o -c /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/BuoyantObject.cc
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.i"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/BuoyantObject.cc > CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.i
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/BuoyantObject.cc > CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.i
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.s"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/BuoyantObject.cc -o CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.s
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/BuoyantObject.cc -o CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.s
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/BuoyantObject.cc.o.requires:
 
@@ -107,16 +107,16 @@ uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.di
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.o: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/flags.make
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.o: ../uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.o"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.o -c /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.o"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.o -c /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.i"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc > CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.i
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc > CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.i
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.s"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc -o CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.s
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UnderwaterObjectPlugin.cc -o CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.s
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src/UnderwaterObjectPlugin.cc.o.requires:
 
@@ -199,8 +199,8 @@ uuv_underwater_object_plugin_EXTERNAL_OBJECTS =
 ../devel/lib/libuuv_underwater_object_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 ../devel/lib/libuuv_underwater_object_plugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libuuv_underwater_object_plugin.so: uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../../devel/lib/libuuv_underwater_object_plugin.so"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uuv_underwater_object_plugin.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../../devel/lib/libuuv_underwater_object_plugin.so"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uuv_underwater_object_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/build: ../devel/lib/libuuv_underwater_object_plugin.so
@@ -214,10 +214,10 @@ uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.di
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/requires
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/uuv_underwater_object_plugin.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/uuv_underwater_object_plugin.dir/cmake_clean.cmake
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/clean
 
 uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/depend
 

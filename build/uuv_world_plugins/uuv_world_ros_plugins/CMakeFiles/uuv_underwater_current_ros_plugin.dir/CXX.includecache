@@ -302,7 +302,7 @@ uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h
 uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h
 -
 
-/home/arslanali/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc
+/home/arslan/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc
 uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh
 -
 

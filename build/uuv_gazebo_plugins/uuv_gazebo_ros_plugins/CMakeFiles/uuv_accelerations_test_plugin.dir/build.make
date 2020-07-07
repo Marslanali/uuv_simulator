@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arslanali/uuv_simulator
+CMAKE_SOURCE_DIR = /home/arslan/uuv_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arslanali/uuv_simulator/build
+CMAKE_BINARY_DIR = /home/arslan/uuv_simulator/build
 
 # Include any dependencies generated for this target.
 include uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/depend.make
@@ -59,16 +59,16 @@ include uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_t
 
 uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.o: uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/flags.make
 uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.o: ../uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.o"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.o -c /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.o"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.o -c /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc
 
 uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.i"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc > CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.i
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc > CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.i
 
 uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.s"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc -o CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.s
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc -o CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.s
 
 uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cc.o.requires:
 
@@ -206,8 +206,8 @@ uuv_accelerations_test_plugin_EXTERNAL_OBJECTS =
 ../devel/lib/libuuv_accelerations_test_plugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libuuv_accelerations_test_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libuuv_accelerations_test_plugin.so: uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arslanali/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../devel/lib/libuuv_accelerations_test_plugin.so"
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uuv_accelerations_test_plugin.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arslan/uuv_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../devel/lib/libuuv_accelerations_test_plugin.so"
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uuv_accelerations_test_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/build: ../devel/lib/libuuv_accelerations_test_plugin.so
@@ -219,10 +219,10 @@ uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plug
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/requires
 
 uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/clean:
-	cd /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && $(CMAKE_COMMAND) -P CMakeFiles/uuv_accelerations_test_plugin.dir/cmake_clean.cmake
+	cd /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins && $(CMAKE_COMMAND) -P CMakeFiles/uuv_accelerations_test_plugin.dir/cmake_clean.cmake
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/clean
 
 uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/depend:
-	cd /home/arslanali/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslanali/uuv_simulator /home/arslanali/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins /home/arslanali/uuv_simulator/build /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins /home/arslanali/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arslan/uuv_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arslan/uuv_simulator /home/arslan/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins /home/arslan/uuv_simulator/build /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins /home/arslan/uuv_simulator/build/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uuv_gazebo_plugins/uuv_gazebo_ros_plugins/CMakeFiles/uuv_accelerations_test_plugin.dir/depend
 

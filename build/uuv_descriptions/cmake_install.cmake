@@ -1,8 +1,8 @@
-# Install script for directory: /home/arslanali/uuv_simulator/uuv_descriptions
+# Install script for directory: /home/arslan/uuv_simulator/uuv_descriptions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arslanali/uuv_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arslan/uuv_simulator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,30 +33,30 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslanali/uuv_simulator/build/uuv_descriptions/catkin_generated/installspace/uuv_descriptions.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslan/uuv_simulator/build/uuv_descriptions/catkin_generated/installspace/uuv_descriptions.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_descriptions/cmake" TYPE FILE FILES
-    "/home/arslanali/uuv_simulator/build/uuv_descriptions/catkin_generated/installspace/uuv_descriptionsConfig.cmake"
-    "/home/arslanali/uuv_simulator/build/uuv_descriptions/catkin_generated/installspace/uuv_descriptionsConfig-version.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_descriptions/catkin_generated/installspace/uuv_descriptionsConfig.cmake"
+    "/home/arslan/uuv_simulator/build/uuv_descriptions/catkin_generated/installspace/uuv_descriptionsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_descriptions" TYPE FILE FILES "/home/arslanali/uuv_simulator/uuv_descriptions/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_descriptions" TYPE FILE FILES "/home/arslan/uuv_simulator/uuv_descriptions/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_descriptions" TYPE PROGRAM FILES "/home/arslanali/uuv_simulator/build/uuv_descriptions/catkin_generated/installspace/spawn_model")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_descriptions" TYPE PROGRAM FILES "/home/arslan/uuv_simulator/build/uuv_descriptions/catkin_generated/installspace/spawn_model")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_descriptions" TYPE DIRECTORY FILES
-    "/home/arslanali/uuv_simulator/uuv_descriptions/launch"
-    "/home/arslanali/uuv_simulator/uuv_descriptions/meshes"
-    "/home/arslanali/uuv_simulator/uuv_descriptions/robots"
-    "/home/arslanali/uuv_simulator/uuv_descriptions/urdf"
+    "/home/arslan/uuv_simulator/uuv_descriptions/launch"
+    "/home/arslan/uuv_simulator/uuv_descriptions/meshes"
+    "/home/arslan/uuv_simulator/uuv_descriptions/robots"
+    "/home/arslan/uuv_simulator/uuv_descriptions/urdf"
     REGEX "/[^/]*\\~$" EXCLUDE)
 endif()
 
